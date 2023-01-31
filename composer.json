@@ -1,0 +1,41 @@
+{
+    "name": "pntsl/php_tst",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Common\\": "src/Common/",
+            "App\\": "src/App/"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "8.1.12"
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "repos/ParseArgs-master"
+        }
+    ],
+    "require": {
+        "miladrahimi/phprouter": "5.*",
+        "barbowza/parse-args": "@dev",
+        "vlucas/phpdotenv": "5.5.x-dev",
+        "league/config": "1.2.x-dev",
+        "utopia-php/registry": "dev-master",
+        "sunspikes/php-ratelimiter": "dev-master",
+        "rakit/validation": "dev-master",
+        "j4mie/idiorm": "dev-master",
+        "guillermoandrae/php-repository": "dev-master",
+        "firebase/php-jwt": "dev-main",
+        "lstrojny/functional-php": "^1.17",
+        "laravel/helpers": "1.x-dev",
+        "fzaninotto/faker": "1.9.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "10.0.x-dev"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": false
+}
